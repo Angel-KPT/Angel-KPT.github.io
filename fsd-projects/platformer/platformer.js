@@ -28,18 +28,26 @@ $(function () {
 
     // TODO 1 - Enable the Grid
     // toggleGrid();
-
+createPlatform()
+createPlatform()
+createPlatform()
+createPlatform()
+createPlatform()
+createPlatform()
 
     // TODO 2 - Create Platforms
-
-
-
+createCollectable('database', 355, 625, 0.5, 0.7);
+createCollectable('datebase', 476, 523, 0.5, 0.7);
+createCollectable('max', 400, 700, 0.5, 0.7);
+createCollectable('database', 761, 576, 0.5, 0.7);
+createCollectable('steve', 193, 900, 0.5, 0.7);
+createCollectable('diamond', 800, 409, 0.5, 0.7);
 
     // TODO 3 - Create Collectables
-
-
-
-    
+createCannon("bottom", 600, 1000);
+createCannon("right", 600, 1000);
+createCannon("top", 700, 1000);
+createCannon("left", 450, 1000);
     // TODO 4 - Create Cannons
 
 
